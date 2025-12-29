@@ -3,10 +3,10 @@ from typing import List
 
 from sqlalchemy.orm import Session
 
-from backend.app.models import Product
-from backend.app.repositories.category_repository import CategoryRepository
-from backend.app.repositories.product_repository import ProductRepository
-from backend.app.schemas.product import ProductResponse, ProductCreate
+from ..models import Product
+from ..repositories.category_repository import CategoryRepository
+from ..repositories.product_repository import ProductRepository
+from ..schemas.product import ProductResponse, ProductCreate
 
 from ..schemas.product import ProductListResponse
 
